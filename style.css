@@ -105,10 +105,8 @@ nav {
     padding: 40px;
 }
 
-.skills .ur,
-.skills .vd,
-.skills .ad {
-      width: 250px;
+.skills .bubbles {
+    width: 250px;
     height: auto;
     display: inline-flex;
     transition: linear;
@@ -117,6 +115,7 @@ nav {
     &:hover {
         transition: all 0.33s ease-in-out;
     }
+}
 
 .skills .ur {
     background: url('Images/bubble1a.png');
