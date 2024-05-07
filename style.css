@@ -114,6 +114,7 @@ nav {
     justify-content:center, space-evenly;
 }
 
+<<<<<<< HEAD
 .skills .ur-hover,
 .skills .vd-hover,
 .skills .ad-hover {
@@ -121,16 +122,33 @@ nav {
     position:absolute;
     top: 0;
     left: 0;
+=======
+.skills .ur:hover,
+.skills .vd:hover,
+.skills .ad:hover {
+    transition: all 2s ease-in-out;
+>>>>>>> 3b454b3961da86952eea5a474e2b18ffebfa111c
 }
 
-.skills img:hover {
-    opacity: 0;
+.skills .ur {
+    background: url('Images/bubble1a.png');
+    &:hover {
+        background: url('Images/bubble1b.png');
+    }
 }
 
-.skills .ur:hover + .ur-hover,
-.skills .vd:hover + .vd-hover,
-.skills .ad:hover + .ad-hover {
-    opacity: 1;
+.skills .vd {
+    background: url('Images/bubble2a.png');
+    &:hover {
+        background: url('Images/bubble2b.png');
+    }
+}
+
+.skills .ad {
+    background: url('Images/bubble3a.png');
+    &:hover {
+        background: url('Images/bubble3b.png');
+    }
 }
 
 .skillcopy {
