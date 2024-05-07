@@ -105,20 +105,24 @@ nav {
     padding: 40px;
 }
 
-.skills img {
+/* .skills img {
     width: 250px;
     height: auto;
     display: inline-flex;
     transition: linear;
     padding-top: 20px;
     justify-content:center, space-evenly;
-}
+} */
 
 .skills .ur,
 .skills .vd,
 .skills .ad {
-    width: 250px;
-    height: 250px;
+      width: 250px;
+    height: auto;
+    display: inline-flex;
+    transition: linear;
+    padding-top: 20px;
+    justify-content:center, space-evenly;
     &:hover {
         transition: all 0.33s ease-in-out;
     }
