@@ -107,7 +107,7 @@ nav {
 
 .skills .bubbles {
     width: 250px;
-    height: auto;
+    height: 250px;
     display: inline-flex;
     transition: linear;
     padding-top: 20px;
