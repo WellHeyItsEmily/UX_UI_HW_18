@@ -114,11 +114,14 @@ nav {
     justify-content:center, space-evenly;
 }
 
-.skills .ur:hover,
-.skills .vd:hover,
-.skills .ad:hover {
-    transition: all 2s ease-in-out;
-}
+.skills .ur,
+.skills .vd,
+.skills .ad {
+    width: 250px;
+    height: 250px;
+    &:hover {
+        transition: all 0.33s ease-in-out;
+    }
 
 .skills .ur {
     background: url('Images/bubble1a.png');
