@@ -120,9 +120,8 @@ nav {
     width: 250px;
     height: 250px;
     &:hover {
-    transition: all 0.33s ease-in-out;
+        transition: all 0.33s ease-in-out;
     }
-}
 
 .skills .ur {
     background: url('Images/bubble1a.png');
