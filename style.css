@@ -118,7 +118,7 @@ nav {
 .skills .vd-hover,
 .skills .ad-hover {
     opacity: 0;
-    position:fixed;
+    position:absolute;
     top: 0;
     left: 0;
 }
@@ -141,10 +141,14 @@ nav {
     padding: 30px;
     margin-top: 70px;
     margin-left: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     background-color:#324554;
     color: #AECCCE;
     width:fit-content;
+}
+
+.headingcopy {
+    padding: 30px;
 }
 
 .workgrid {
